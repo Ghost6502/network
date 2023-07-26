@@ -1,6 +1,8 @@
-function ProfileDescription() {
+import classes from './Description.module.css'
+
+function Description() {
     return (
-        <div className="profile__description">
+        <div className={classes.description}>
             <h1>James Harden</h1>
             <h4>Date of Birth: 30 July</h4>
             <h4>City: Saint Petersburg</h4>
@@ -12,4 +14,4 @@ function ProfileDescription() {
     );
 }
 
-export default ProfileDescription;
+export default Description;

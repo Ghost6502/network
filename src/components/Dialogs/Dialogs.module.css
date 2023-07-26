@@ -1,0 +1,35 @@
+.contacts, .dialog {
+    display: inline-block;
+}
+
+.contacts {
+    max-width: 200px;
+    width: 100%;
+}
+
+.contacts a {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #777;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.contacts a + a {
+    margin-top: 10px;
+}
+
+.contacts a.active {
+    color: #77f;
+}
+
+.dialog {
+    max-width: calc(100% - 200px);
+    width: 100%;
+    vertical-align: top;
+}
+
+.dialog h4:first-child {
+    margin-top: 0;
+}
